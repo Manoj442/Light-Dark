@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.header{
+    display: flex;    
+}
+
+.dark{
+    color:#e8eaed;
+    background: #202124;
+}
+
+.light{    
+    color:#3c4043;
+    background: #fff;
+}
+
+nav{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    text-align: center;
+    padding:2% 4%
+}
+
+ul{
+    display:flex;     
+}
+nav > ul >li{
+    list-style-type: none;
+    padding: 10px 10px;       
+}
+p{
+    text-align: justify;
+}
+
+a{
+    text-decoration: none !important;    
+    font-weight: bold;
+}
+
+button{
+    border:none;
+    background: #fff;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
+main{
+    padding:5%
+}
+footer{
+    padding: 0 5%
+}
